@@ -9,7 +9,13 @@ This project predicts customer churn in a bank using machine learning models, as
 - Visualizations
 - Clean and modular Python code
 
+## Why choose these models:
 
+Random Forest
+A powerful ensemble method that's robust to overfitting and performs well on tabular data. It can capture non-linear relationships and is often a strong default for classification tasks.
+
+XGBoost
+A highly optimized gradient boosting algorithm. It's efficient, handles missing values well, and often outperforms other models on structured datasets. Chosen for its strong performance in many real-world classification tasks.
 
 ## Models & Evaluation
 Three models were trained and evaluated:
