@@ -1,0 +1,32 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "standardscaler__CreditScore",
+      "standardscaler__Age",
+      "standardscaler__Tenure",
+      "standardscaler__Balance",
+      "standardscaler__NumOfProducts",
+      "standardscaler__HasCrCard",
+      "standardscaler__IsActiveMember",
+      "standardscaler__EstimatedSalary",
+      "onehotencoder__Geography_Germany",
+      "onehotencoder__Geography_Spain",
+      "onehotencoder__Gender_Male"
+    ],
+    "data": [
+      [
+        0.0055344562119287784,
+        -1.4256060165974704,
+        0.014540927029120548,
+        1.0639873007230605,
+        -0.7700253680702854,
+        -1.5407675025912964,
+        -0.9370854375453458,
+        0.7216861813199447,
+        1.0,
+        0.0,
+        1.0
+      ]
+    ]
+  }
+}

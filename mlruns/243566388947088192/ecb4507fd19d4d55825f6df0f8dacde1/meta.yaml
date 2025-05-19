@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/243566388947088192/ecb4507fd19d4d55825f6df0f8dacde1/artifacts
+end_time: 1747598956179
+entry_point_name: ''
+experiment_id: '243566388947088192'
+lifecycle_stage: active
+run_id: ecb4507fd19d4d55825f6df0f8dacde1
+run_name: charming-ant-182
+run_uuid: ecb4507fd19d4d55825f6df0f8dacde1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747598956141
+status: 4
+tags: []
+user_id: ayman

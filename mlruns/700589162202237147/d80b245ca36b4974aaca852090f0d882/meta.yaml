@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/700589162202237147/d80b245ca36b4974aaca852090f0d882/artifacts
+end_time: 1747595279256
+entry_point_name: ''
+experiment_id: '700589162202237147'
+lifecycle_stage: active
+run_id: d80b245ca36b4974aaca852090f0d882
+run_name: kindly-roo-327
+run_uuid: d80b245ca36b4974aaca852090f0d882
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747595236160
+status: 3
+tags: []
+user_id: ayman

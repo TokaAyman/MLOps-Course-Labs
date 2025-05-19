@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/bafc5a7ad065456495307a6394f18f47/artifacts
+end_time: 1747638911200
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: bafc5a7ad065456495307a6394f18f47
+run_name: exultant-moth-13
+run_uuid: bafc5a7ad065456495307a6394f18f47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638904793
+status: 3
+tags: []
+user_id: ayman

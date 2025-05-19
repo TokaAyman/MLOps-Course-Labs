@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/9ce921b0881f44e9901c902d434099ce/artifacts
+end_time: 1747638729460
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 9ce921b0881f44e9901c902d434099ce
+run_name: spiffy-shad-474
+run_uuid: 9ce921b0881f44e9901c902d434099ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638724245
+status: 3
+tags: []
+user_id: ayman

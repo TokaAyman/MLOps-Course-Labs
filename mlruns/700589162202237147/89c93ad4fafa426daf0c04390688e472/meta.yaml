@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/700589162202237147/89c93ad4fafa426daf0c04390688e472/artifacts
+end_time: 1747596364121
+entry_point_name: ''
+experiment_id: '700589162202237147'
+lifecycle_stage: active
+run_id: 89c93ad4fafa426daf0c04390688e472
+run_name: painted-cod-390
+run_uuid: 89c93ad4fafa426daf0c04390688e472
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747595279282
+status: 3
+tags: []
+user_id: ayman

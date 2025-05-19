@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/700589162202237147/4d199e2fab1a4c51b4717aaec15d0cc1/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '700589162202237147'
+lifecycle_stage: active
+run_id: 4d199e2fab1a4c51b4717aaec15d0cc1
+run_name: loud-mule-111
+run_uuid: 4d199e2fab1a4c51b4717aaec15d0cc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747594319877
+status: 1
+tags: []
+user_id: ayman

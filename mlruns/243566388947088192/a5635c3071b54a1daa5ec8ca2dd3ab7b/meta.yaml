@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/243566388947088192/a5635c3071b54a1daa5ec8ca2dd3ab7b/artifacts
+end_time: 1747600254254
+entry_point_name: ''
+experiment_id: '243566388947088192'
+lifecycle_stage: active
+run_id: a5635c3071b54a1daa5ec8ca2dd3ab7b
+run_name: wistful-roo-709
+run_uuid: a5635c3071b54a1daa5ec8ca2dd3ab7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747600254197
+status: 4
+tags: []
+user_id: ayman

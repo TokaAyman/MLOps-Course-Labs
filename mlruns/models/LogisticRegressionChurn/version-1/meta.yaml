@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1747599070842
+current_stage: None
+description: null
+last_updated_timestamp: 1747599070842
+name: LogisticRegressionChurn
+run_id: 5090336dd3ce48bd8bc2153b49635adc
+run_link: null
+source: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/243566388947088192/5090336dd3ce48bd8bc2153b49635adc/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/243566388947088192/5090336dd3ce48bd8bc2153b49635adc/artifacts/model
+user_id: null
+version: 1

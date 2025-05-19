@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/ca0fcca92b8144b8a26e3dbe0ca05727/artifacts
+end_time: 1747638904775
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: ca0fcca92b8144b8a26e3dbe0ca05727
+run_name: aged-swan-674
+run_uuid: ca0fcca92b8144b8a26e3dbe0ca05727
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638904679
+status: 3
+tags: []
+user_id: ayman

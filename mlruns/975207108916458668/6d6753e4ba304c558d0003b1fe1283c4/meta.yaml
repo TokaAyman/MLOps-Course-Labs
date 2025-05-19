@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/6d6753e4ba304c558d0003b1fe1283c4/artifacts
+end_time: 1747638734777
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 6d6753e4ba304c558d0003b1fe1283c4
+run_name: learned-newt-90
+run_uuid: 6d6753e4ba304c558d0003b1fe1283c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638729581
+status: 3
+tags: []
+user_id: ayman

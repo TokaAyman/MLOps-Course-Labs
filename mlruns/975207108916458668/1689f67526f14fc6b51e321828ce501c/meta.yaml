@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/1689f67526f14fc6b51e321828ce501c/artifacts
+end_time: 1747638923560
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 1689f67526f14fc6b51e321828ce501c
+run_name: melodic-cow-130
+run_uuid: 1689f67526f14fc6b51e321828ce501c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638917169
+status: 3
+tags: []
+user_id: ayman

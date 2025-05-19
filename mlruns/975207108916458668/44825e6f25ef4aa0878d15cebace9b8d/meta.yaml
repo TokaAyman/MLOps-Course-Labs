@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/44825e6f25ef4aa0878d15cebace9b8d/artifacts
+end_time: 1747638723758
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 44825e6f25ef4aa0878d15cebace9b8d
+run_name: zealous-gnu-256
+run_uuid: 44825e6f25ef4aa0878d15cebace9b8d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638715632
+status: 3
+tags: []
+user_id: ayman

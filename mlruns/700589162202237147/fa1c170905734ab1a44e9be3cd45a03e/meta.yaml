@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/700589162202237147/fa1c170905734ab1a44e9be3cd45a03e/artifacts
+end_time: 1747594696096
+entry_point_name: ''
+experiment_id: '700589162202237147'
+lifecycle_stage: active
+run_id: fa1c170905734ab1a44e9be3cd45a03e
+run_name: wise-toad-61
+run_uuid: fa1c170905734ab1a44e9be3cd45a03e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747594669854
+status: 3
+tags: []
+user_id: ayman

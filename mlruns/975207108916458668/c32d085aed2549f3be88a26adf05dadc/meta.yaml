@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/c32d085aed2549f3be88a26adf05dadc/artifacts
+end_time: 1747638917045
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: c32d085aed2549f3be88a26adf05dadc
+run_name: beautiful-crab-8
+run_uuid: c32d085aed2549f3be88a26adf05dadc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747638911624
+status: 3
+tags: []
+user_id: ayman

@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/700589162202237147/ff10225f56604337bf315dadad2a1eb1/artifacts
+end_time: 1747571563531
+entry_point_name: ''
+experiment_id: '700589162202237147'
+lifecycle_stage: active
+run_id: ff10225f56604337bf315dadad2a1eb1
+run_name: unequaled-horse-828
+run_uuid: ff10225f56604337bf315dadad2a1eb1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747571563000
+status: 3
+tags: []
+user_id: ayman

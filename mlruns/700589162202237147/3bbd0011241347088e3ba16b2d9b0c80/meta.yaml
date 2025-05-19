@@ -1,0 +1,15 @@
+artifact_uri: file:C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/700589162202237147/3bbd0011241347088e3ba16b2d9b0c80/artifacts
+end_time: 1747594319861
+entry_point_name: ''
+experiment_id: '700589162202237147'
+lifecycle_stage: active
+run_id: 3bbd0011241347088e3ba16b2d9b0c80
+run_name: calm-smelt-901
+run_uuid: 3bbd0011241347088e3ba16b2d9b0c80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747594293323
+status: 3
+tags: []
+user_id: ayman
