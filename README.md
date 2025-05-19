@@ -21,7 +21,6 @@ F1 Score: 74.9
 
 Precision: 76.88
 
-Performed better than XGBoost Classifier.
 
 Suitable for production due to its robust generalization.
 
