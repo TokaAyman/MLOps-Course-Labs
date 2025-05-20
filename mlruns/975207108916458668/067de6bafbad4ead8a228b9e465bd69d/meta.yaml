@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/067de6bafbad4ead8a228b9e465bd69d/artifacts
+end_time: 1747768759610
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 067de6bafbad4ead8a228b9e465bd69d
+run_name: invincible-moth-48
+run_uuid: 067de6bafbad4ead8a228b9e465bd69d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768751659
+status: 3
+tags: []
+user_id: ayman

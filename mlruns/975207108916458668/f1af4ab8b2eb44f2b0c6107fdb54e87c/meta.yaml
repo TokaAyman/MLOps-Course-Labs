@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/f1af4ab8b2eb44f2b0c6107fdb54e87c/artifacts
+end_time: 1747772083295
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: f1af4ab8b2eb44f2b0c6107fdb54e87c
+run_name: righteous-rook-817
+run_uuid: f1af4ab8b2eb44f2b0c6107fdb54e87c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747772083181
+status: 3
+tags: []
+user_id: ayman

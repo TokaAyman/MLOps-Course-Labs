@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/7bc8ecdd3da147f8a6bfa914e40e0a99/artifacts
+end_time: 1747768711231
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 7bc8ecdd3da147f8a6bfa914e40e0a99
+run_name: burly-kite-188
+run_uuid: 7bc8ecdd3da147f8a6bfa914e40e0a99
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768706318
+status: 3
+tags: []
+user_id: ayman

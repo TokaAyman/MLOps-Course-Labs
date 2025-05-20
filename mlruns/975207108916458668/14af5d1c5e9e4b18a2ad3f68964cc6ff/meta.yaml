@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/14af5d1c5e9e4b18a2ad3f68964cc6ff/artifacts
+end_time: 1747768635265
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 14af5d1c5e9e4b18a2ad3f68964cc6ff
+run_name: powerful-trout-770
+run_uuid: 14af5d1c5e9e4b18a2ad3f68964cc6ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768626508
+status: 3
+tags: []
+user_id: ayman

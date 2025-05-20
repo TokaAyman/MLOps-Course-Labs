@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/c0ec14cc1eaf4721940436a3dac56744/artifacts
+end_time: 1747768640766
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: c0ec14cc1eaf4721940436a3dac56744
+run_name: angry-zebra-277
+run_uuid: c0ec14cc1eaf4721940436a3dac56744
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768635639
+status: 3
+tags: []
+user_id: ayman

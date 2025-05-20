@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1747769206547
+current_stage: Archived
+description: null
+last_updated_timestamp: 1747772104046
+name: Churn Prediction Model
+run_id: f541c41e5a5d476a8b4be93361c1be3c
+run_link: null
+source: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/f541c41e5a5d476a8b4be93361c1be3c/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/f541c41e5a5d476a8b4be93361c1be3c/artifacts/model
+user_id: null
+version: 4

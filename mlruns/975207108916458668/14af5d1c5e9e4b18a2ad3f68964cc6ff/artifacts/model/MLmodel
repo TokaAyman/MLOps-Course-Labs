@@ -1,0 +1,33 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 2952
+model_uuid: 3f5b3b4374714f9899e1baecd7198109
+prompts: null
+run_id: 14af5d1c5e9e4b18a2ad3f68964cc6ff
+signature:
+  inputs: '[{"type": "long", "name": "CreditScore", "required": true}, {"type": "string",
+    "name": "Geography", "required": true}, {"type": "string", "name": "Gender", "required":
+    true}, {"type": "long", "name": "Age", "required": true}, {"type": "long", "name":
+    "Tenure", "required": true}, {"type": "double", "name": "Balance", "required":
+    true}, {"type": "long", "name": "NumOfProducts", "required": true}, {"type": "long",
+    "name": "HasCrCard", "required": true}, {"type": "long", "name": "IsActiveMember",
+    "required": true}, {"type": "double", "name": "EstimatedSalary", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-20 19:17:06.642238'

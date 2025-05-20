@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/7fad5552c324439895de4dcc4b1d4750/artifacts
+end_time: 1747768107628
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 7fad5552c324439895de4dcc4b1d4750
+run_name: victorious-gull-176
+run_uuid: 7fad5552c324439895de4dcc4b1d4750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768107514
+status: 3
+tags: []
+user_id: ayman

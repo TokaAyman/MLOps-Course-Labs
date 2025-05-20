@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/d650a7a736254a8dbcbf83124ac88d03/artifacts
+end_time: 1747772098108
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: d650a7a736254a8dbcbf83124ac88d03
+run_name: welcoming-colt-591
+run_uuid: d650a7a736254a8dbcbf83124ac88d03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747772092506
+status: 3
+tags: []
+user_id: ayman

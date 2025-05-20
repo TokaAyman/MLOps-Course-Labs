@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/4999c34d9553443bab409d6b2fd3057b/artifacts
+end_time: 1747772092151
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 4999c34d9553443bab409d6b2fd3057b
+run_name: stylish-crane-150
+run_uuid: 4999c34d9553443bab409d6b2fd3057b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747772083328
+status: 3
+tags: []
+user_id: ayman

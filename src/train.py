@@ -2,6 +2,7 @@
 This module contains functions to preprocess and train the model
 for bank consumer churn prediction.
 """
+import joblib
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -118,7 +119,7 @@ def preprocess(df):
     return col_transf, X_train, X_test, y_train, y_test
 
 
-def train_model(model_name, X_train, y_train):
+def train_model(model_name, col_transf, X_train, y_train):
     if model_name == "logistic":
         model = LogisticRegression(max_iter=1000)
     elif model_name == "random_forest":
@@ -158,7 +159,8 @@ def log_experiment(model_name, model, X_train, X_test, y_train, y_test):
         plt.close()
         mlflow.log_artifact(f"{ARTIFACT_DIR}/{model_name}_confusion_matrix.png")
 
-        return mlflow.active_run().info.run_id, metrics["f1_score"]
+        return mlflow.active_run().info.run_id, metrics["f1_score"], metrics["accuracy"], model
+
 
 
 def register_best_models(run_infos):
@@ -166,7 +168,7 @@ def register_best_models(run_infos):
     sorted_runs = sorted(run_infos, key=lambda x: x[1], reverse=True)
     for i, (run_id, f1) in enumerate(sorted_runs[:2]):
         model_uri = f"runs:/{run_id}/model"
-        model_name = "ChurnPredictionModel"
+        model_name = "Churn Prediction Model"
         model_version = mlflow.register_model(model_uri=model_uri, name=model_name)
         stage = "Production" if i == 0 else "Staging"
         client.transition_model_version_stage(
@@ -178,6 +180,8 @@ def register_best_models(run_infos):
         logger.info(f"Model {run_id} registered to stage {stage}")
 
 def main():
+    best_accuracy = 0
+    best_model = None
     ### Set the tracking URI for MLflow
     mlflow.set_tracking_uri("mlruns")  # Optional: adjust as needed
     mlflow.set_experiment("Bank Churn Prediction")
@@ -193,11 +197,19 @@ def main():
         mlflow.log_param("max_iter", 1000)
         run_infos = []
     for model_name in ["logistic", "random_forest", "xgboost"]:
-        model = train_model(model_name, X_train, y_train)
-        run_id, f1 = log_experiment(model_name, model, X_train, X_test, y_train, y_test)
+        model = train_model(model_name, col_transf, X_train, y_train)
+        run_id, f1, accuracy, trained_model = log_experiment(model_name, model, X_train, X_test, y_train, y_test)
         run_infos.append((run_id, f1))
+        if accuracy > best_accuracy:
+            best_accuracy = accuracy
+            best_model = trained_model
 
     register_best_models(run_infos)
+    # Save the best model locally for FastAPI
+
+    joblib.dump(col_transf, "column_transformer.pkl")
+    joblib.dump(best_model, "best_model.pkl")
+    logger.info("Saved column_transformer.pkl and best_model.pkl")
 
 
 if __name__ == "__main__":

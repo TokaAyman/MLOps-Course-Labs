@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/79f6bffe55b44f14b47ad2bc9793e300/artifacts
+end_time: 1747772103815
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 79f6bffe55b44f14b47ad2bc9793e300
+run_name: calm-loon-163
+run_uuid: 79f6bffe55b44f14b47ad2bc9793e300
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747772098266
+status: 3
+tags: []
+user_id: ayman

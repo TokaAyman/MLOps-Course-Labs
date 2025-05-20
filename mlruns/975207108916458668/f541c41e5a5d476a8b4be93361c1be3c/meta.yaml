@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/f541c41e5a5d476a8b4be93361c1be3c/artifacts
+end_time: 1747769206355
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: f541c41e5a5d476a8b4be93361c1be3c
+run_name: casual-seal-687
+run_uuid: f541c41e5a5d476a8b4be93361c1be3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747769201419
+status: 3
+tags: []
+user_id: ayman

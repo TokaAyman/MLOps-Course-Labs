@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/e0de201606784c3c8cdab3dd45526678/artifacts
+end_time: 1747768312086
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: e0de201606784c3c8cdab3dd45526678
+run_name: likeable-seal-466
+run_uuid: e0de201606784c3c8cdab3dd45526678
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768312005
+status: 3
+tags: []
+user_id: ayman

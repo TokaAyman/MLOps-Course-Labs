@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/c66bacce81d94f2b927b6998ab848ebf/artifacts
+end_time: 1747768692393
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: c66bacce81d94f2b927b6998ab848ebf
+run_name: youthful-koi-6
+run_uuid: c66bacce81d94f2b927b6998ab848ebf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768692312
+status: 3
+tags: []
+user_id: ayman

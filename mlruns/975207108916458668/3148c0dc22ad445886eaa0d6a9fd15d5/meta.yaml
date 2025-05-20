@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/3148c0dc22ad445886eaa0d6a9fd15d5/artifacts
+end_time: 1747768770214
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 3148c0dc22ad445886eaa0d6a9fd15d5
+run_name: big-cow-347
+run_uuid: 3148c0dc22ad445886eaa0d6a9fd15d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768765271
+status: 3
+tags: []
+user_id: ayman

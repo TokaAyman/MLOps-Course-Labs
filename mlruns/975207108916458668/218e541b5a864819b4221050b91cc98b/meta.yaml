@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ayman/OneDrive/Desktop/ITI_WORK/MLOPS/repo/MLOps-Course-Labs/mlruns/975207108916458668/218e541b5a864819b4221050b91cc98b/artifacts
+end_time: 1747768645989
+entry_point_name: ''
+experiment_id: '975207108916458668'
+lifecycle_stage: active
+run_id: 218e541b5a864819b4221050b91cc98b
+run_name: unique-dolphin-542
+run_uuid: 218e541b5a864819b4221050b91cc98b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747768640922
+status: 3
+tags: []
+user_id: ayman
