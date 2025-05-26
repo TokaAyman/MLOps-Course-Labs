@@ -3,8 +3,8 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 import mlflow.pyfunc
-from .model import predict  # relative import within src/api
-
+from model import predict  # relative import within src/api
+from prometheus_fastapi_instrumentator import Instrumentator
 import joblib
 
 model = joblib.load("best_model.pkl")
@@ -24,7 +24,7 @@ class CustomerInput(BaseModel):
     HasCrCard: int
     IsActiveMember: int
     EstimatedSalary: float
-
+instrumentator = Instrumentator().instrument(app).expose(app)
 @app.get("/")
 def home():
     return {"message": "Welcome to the Bank Churn Prediction API"}

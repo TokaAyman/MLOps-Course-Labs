@@ -5,6 +5,9 @@ services:
     build:
       context: ./src/api
     container_name: fastapi
+    volumes:
+      - ./best_model.pkl:/best_model.pkl
+      - ./column_transformer.pkl:/column_transformer.pkl
     ports:
       - "8000:8000"
     networks:
@@ -26,11 +29,18 @@ services:
       - "3000:3000"
     volumes:
       - grafana-storage:/var/lib/grafana
-      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning
+      - ./monitoring/grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
+      - ./monitoring/grafana/provisioning/dashboard:/etc/grafana/provisioning/dashboards.yml
     depends_on:
       - prometheus
-
+    networks:
+      - monitoring
 
 
 networks:
   monitoring:
+
+volumes:
+  grafana-storage:
+

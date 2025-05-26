@@ -1,31 +1,34 @@
-import mlflow.pyfunc
 import pandas as pd
 import logging
 import joblib
-
+import os
 
 logger = logging.getLogger(__name__)
 
-# Load the best model from MLflow model registry (production stage)
-MODEL_URI = "models:/Churn Prediction Model/Production"
+# Paths relative to the current file (src/api/model.py)
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
+MODEL_PATH = "best_model.pkl"
+
+TRANSFORMER_PATH = os.path.join(BASE_DIR, "column_transformer.pkl")
 
 def load_model():
-    logger.info(f"Loading model from {MODEL_URI}")
-    model = mlflow.pyfunc.load_model(MODEL_URI)
+    logger.info(f"Loading model from {MODEL_PATH}")
+    model = joblib.load(MODEL_PATH)
     logger.info("Model loaded successfully")
     return model
 
+def load_transformer():
+    logger.info(f"Loading transformer from {TRANSFORMER_PATH}")
+    transformer = joblib.load(TRANSFORMER_PATH)
+    logger.info("Transformer loaded successfully")
+    return transformer
+
+# Load model and transformer once to reuse
 model = load_model()
-
-
-logger = logging.getLogger(__name__)
+transformer = load_transformer()
 
 def predict(input_data: dict):
     try:
-        # Load model and transformer
-        model = joblib.load("best_model.pkl")
-        transformer = joblib.load("column_transformer.pkl")
-
         logger.info(f"Received input data for prediction: {input_data}")
 
         # Convert to DataFrame
