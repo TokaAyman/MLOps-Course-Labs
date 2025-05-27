@@ -11,6 +11,8 @@ model = joblib.load("best_model.pkl")
 transformer = joblib.load("column_transformer.pkl")
 
 app = FastAPI()
+# Instrumentation setup
+Instrumentator().instrument(app).expose(app)
 
 # Define input schema
 class CustomerInput(BaseModel):
@@ -25,6 +27,9 @@ class CustomerInput(BaseModel):
     IsActiveMember: int
     EstimatedSalary: float
 instrumentator = Instrumentator().instrument(app).expose(app)
+@app.get("/")
+def root():
+    return {"message": "Hello from FastAPI"}
 @app.get("/")
 def home():
     return {"message": "Welcome to the Bank Churn Prediction API"}
